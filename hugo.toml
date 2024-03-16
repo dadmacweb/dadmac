@@ -2,3 +2,14 @@ baseURL = 'https://example.org/'
 languageCode = 'en-uk'
 title = 'DADMAC'
 theme = 'simple'
+
+
+[menus]
+[[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menus.main]]
+    name = 'Flying Field'
+    pageRef = '/field'
+    weight = 20
