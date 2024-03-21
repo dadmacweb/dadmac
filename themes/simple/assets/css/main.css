@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Limelight'); /* font-family: 'Limelight', cursive;font-style: normal;font-weight: 400; */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');/*font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;*/
+
 
 :root {
   --primary: #d3e4f5;
@@ -8,12 +11,19 @@
 
 
 body {
+
+
+
   background-color: var(--primary);
   color: var(--secondary);
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
   max-width: 100%;
+
+  font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;
+
+  
 }
 
 header {
