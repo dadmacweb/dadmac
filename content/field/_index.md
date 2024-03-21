@@ -12,6 +12,4 @@ From the A82 (North or Southbound) take the turn off for Renton (B857). Turn rig
 The closest post code is G82 4PY which will take you to the east end of the reservoir. 
 
 
-[From Helensburgh](https://www.google.com/maps/dir/Helensburgh/55.9745703,-4.6050862/@55.9809967,-4.7108113,13936m/data=!3m2!1e3!4b1!4m10!4m9!1m5!1m1!1s0x4889078b65700273:0xeb7e2e9cc803b81c!2m2!1d-4.734014!2d56.002318!1m1!4e1!3e0?entry=ttu)
-[From Dumbarton](https://www.google.com/maps/dir/Dumbarton/55.9745703,-4.6050862/@55.961074,-4.5957595,4308m/data=!3m1!1e3!4m10!4m9!1m5!1m1!1s0x48884d562a7d8439:0x7f1b30b2e566de62!2m2!1d-4.564554!2d55.945287!1m1!4e1!3e0?entry=ttu)
-[What three word](https://what3words.com/labels.limits.outraged)
+{{< directions >}}

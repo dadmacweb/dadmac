@@ -1,18 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --primary: #d3e4f5;
+  --secondary: #222;
+}
+
+
+
 body {
-  color: #222;
+  background-color: var(--primary);
+  color: var(--secondary);
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  max-width: 768px;
+  max-width: 100%;
 }
 
 header {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--secondary);
   margin-bottom: 1rem;
 }
 
 footer {
-  border-top: 1px solid #222;
+  border-top: 1px solid var(--secondary);
   margin-top: 1rem;
 }
 
@@ -20,3 +30,63 @@ a {
   color: #00e;
   text-decoration: none;
 }
+
+/* Directions */
+.direction-options{
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+.direction-options > li > a
+{
+  line-height: 2.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.what3word{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:#0A3049;
+}
+
+.what3word::before{
+  content: '///';
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  color: #E11F26;
+}
+
+.googlemaps::before
+{
+  content:'\e0c8';
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* End Directions */
+
+/* Menu */
+nav > ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+}
+
+/* End Menu */
