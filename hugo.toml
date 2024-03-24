@@ -10,14 +10,18 @@ theme = 'simple'
     pageRef = '/'
     weight = 10
 [[menus.main]]
+    name = 'News'
+    pageRef = '/news'
+    weight = 20
+[[menus.main]]
     name = 'Flying Field'
     pageRef = '/field'
-    weight = 20
+    weight = 30
 [[menus.main]]
     name = 'Contact'   
     pageRef = '/contact' 
-    weight = 30
+    weight = 40
 [[menus.main]]
     name = 'Membership'   
     pageRef = '/membership' 
-    weight = 30    
+    weight = 50    

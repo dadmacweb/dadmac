@@ -1,16 +1,14 @@
 +++
 title = 'Contact Us'
 date = 2024-03-02T21:02:59Z
-draft = true
+draft = false
 +++
 
 ## Committee
 
-|                          |                          |  
-|--------------------------|--------------------------|
-|Chairman:                 |Alex Gough                |
-|Vice Chairman:            |Steven Yeates             |
-|Secretary:	               |Gordon McKay              |
-|Membership Secretary:     |Dave Vincent              |
-|Treasurer:	               |Ian McCallum              |
-|PRO / Newsletter:         |Graeme Sharp              |
+|                          |                          |                                               |
+|--------------------------|--------------------------|-----------------------------------------------|
+|Chairman:                 |Tony Boyle                |[e-mail](mailto:dadmacsecretary@gmail.com)     |
+|Secretary:	               |Gordon McKay              |[e-mail](mailto:dadmacsecretary@gmail.com)     |
+|Treasurer:                |Gordon McKay              |[e-mail](mailto:dadmacsecretary@gmail.com)     |
+|Membership Secretary:     |Dave Vincent              |[e-mail](mailto:dadmacsecretary@gmail.com)     |

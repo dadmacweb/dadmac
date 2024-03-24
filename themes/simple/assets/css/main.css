@@ -4,25 +4,27 @@
 
 
 :root {
-  --primary: #d3e4f5;
-  --secondary: #222;
+  --primary: #ebeef5;
+  --secondary: #131313;
 }
-
-
 
 body {
 
+  height: 100vh;
 
-
-  background-color: var(--primary);
   color: var(--secondary);
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  max-width: 100%;
-
+  
   font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;
 
+  /* background:linear-gradient(var(--primary) 80%, transparent 100%),  rgba(0,0,0,.8) url('/honeycomb.svg') center/2% repeat; */
+  background: var(--primary);
+  
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
