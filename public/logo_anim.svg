@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	viewBox="0 0 2650 300">
+	<defs>
+		<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Limelight');
+		text {
+			font-family: 'Limelight', cursive;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 180px;
+			word-spacing: 0.1em;
+		}
+		</style>
+	</defs>
+
+	<!-- Triangle - Black -->
+	<polygon points="0,150  50,200  100,150  50,100" style="stroke:#FF0000; fill:#FF0000;">
+		<animateMotion
+		  path="M2600,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</polygon>
+	<!-- Tick - Red -->
+	<polygon points="50,100  100,150  250,0  150,0" style="stroke:#000000; fill:#000000;">
+		<animateMotion
+		  path="M2600,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</polygon>
+	<!-- Tick - White -->
+	<polygon points="50,200  150,300  250,300  100,150" style="stroke:#000000; fill:#000000;">
+		<animateMotion
+		  path="M2600,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</polygon>
+
+	<!-- Triangle - Black -->
+	<polygon points="100,150  150,200  200,150  150,100" style="stroke:#FF0000; fill:#FF0000;">
+		<animateMotion
+		  path="M3000,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</polygon>
+	<!-- Tick - Red -->
+	<polygon points="150,100  200,150  300,50  200,50" style="stroke:#000000; fill:#000000;">
+		<animateMotion
+		  path="M3000,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</polygon>
+	<!-- Tick - White -->
+	<polygon points="150,200  200,250  300,250  200,150" style="stroke:#000000; fill:#000000;">
+		<animateMotion
+		  path="M3000,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</polygon>
+	
+	<text id="logo" x="300" y="130" fill="black">DUMBARTON &amp; DISTRICT
+		<animateMotion
+		  path="M3300,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</text>
+	<text id="logo" x="300" y="300" fill="black">MODEL AIRCRAFT CLUB
+		<animateMotion
+		  path="M3300,0 L2600,0 L0,0"
+		  begin="0s" dur="3s"
+		  />
+	</text>
+</svg>

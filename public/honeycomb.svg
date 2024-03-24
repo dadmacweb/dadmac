@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Blender, SVG Export for Grease Pencil - v1.0 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.0" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 653 754">
+	<defs>
+		<g id="honeycomb">
+			<polyline stroke-opacity="1" fill="none" stroke-linecap="butt" stroke-width="25" points="10.000000,575.736633 118.876038,575.736633 227.752258,387.157776 445.504333,387.157776 554.380432,198.578857 445.504211,387.157776 554.380432,575.736572 445.504333,764.315491 227.752258,764.315491 118.876038,575.736633 227.752258,764.315491 445.504333,764.315369 554.380432,575.736572 663.256531,575.736572" />
+			<polyline stroke-opacity="1" fill="none" stroke-linecap="butt" stroke-width="25" points="663.256531,198.578918 554.380432,198.578857 445.504211,10.000000 227.752136,10.000000 118.876099,198.578918 10.000000,198.578918" />
+			<polyline stroke-opacity="1" fill="none" stroke-linecap="butt" stroke-width="25" points="118.876099,198.578918 227.752258,387.157776 445.504211,387.157776 554.380432,575.736572" />
+			<polyline stroke-opacity="1" fill="none" stroke-linecap="butt" stroke-width="25" points="118.876099,198.578857 227.752258,387.157776 118.876160,575.736633" />
+		</g>
+	</defs>
+	
+	<use href="#honeycomb" stroke="#F0F0F0" transform="translate(-9,-11)">
+	</use>
+	<use href="#honeycomb" stroke="#0F0F0F" transform="translate(-11,-9)">
+	</use>
+	<use href="#honeycomb" stroke="#303030" transform="translate(-10,-10)">
+	</use>
+	
+
+	
+
+
+</svg>

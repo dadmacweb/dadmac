@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Limelight'); /* font-family: 'Limelight', cursive;font-style: normal;font-weight: 400; */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');/*font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;*/
+
+
+:root {
+  --primary: #ebeef5;
+  --secondary: #131313;
+}
+
+body {
+
+  height: 100vh;
+
+  color: var(--secondary);
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  
+  font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;
+
+  /* background:linear-gradient(var(--primary) 80%, transparent 100%),  rgba(0,0,0,.8) url('/honeycomb.svg') center/2% repeat; */
+  background: var(--primary);
+  
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+header {
+  border-bottom: 1px solid var(--secondary);
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid var(--secondary);
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+/* Directions */
+.direction-options{
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+.direction-options > li > a
+{
+  line-height: 2.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.what3word{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:#0A3049;
+}
+
+.what3word::before{
+  content: '///';
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  color: #E11F26;
+}
+
+.googlemaps::before
+{
+  content:'\e0c8';
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* End Directions */
+
+/* Menu */
+nav > ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+}
+
+/* End Menu */
