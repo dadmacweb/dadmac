@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/dadmac/contact/</loc>
     <lastmod>2024-03-02T21:02:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/field/</loc>
+    <loc>http://localhost:1313/dadmac/field/</loc>
     <lastmod>2024-03-02T21:02:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/dadmac/</loc>
     <lastmod>2024-03-02T20:32:11+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/membership/</loc>
+    <loc>http://localhost:1313/dadmac/membership/</loc>
     <lastmod>2024-03-02T20:32:11+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>http://localhost:1313/dadmac/news/</loc>
     <lastmod>2024-03-02T20:32:11+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/dadmac/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/dadmac/tags/</loc>
   </url>
 </urlset>

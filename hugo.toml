@@ -1,8 +1,8 @@
-baseURL = 'https://example.org/'
 languageCode = 'en-uk'
 title = 'DADMAC'
 theme = 'simple'
 publishDir = 'docs'
+baseURL="https://dadmacweb.github.io/dadmac/"
 
 
 [menus]
