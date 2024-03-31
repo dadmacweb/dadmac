@@ -2,59 +2,64 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight'); /* font-family: 'Limelight', cursive;font-style: normal;font-weight: 400; */
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');/*font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;*/
 
-
 :root {
-  --primary: #ebeef5;
-  --secondary: #131313;
+  --primary-color: #ebeef5;
+  --secondary-color: #131313;
+  --accent-color:#00e;
 }
 
 body {
-
   height: 100vh;
 
-  color: var(--secondary);
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--secondary-color);
   font-family: sans-serif;
   line-height: 1.5;
-  margin: 1rem;
   
   font-family: "Playpen Sans", cursive;  font-optical-sizing: auto;  font-weight: 400;  font-style: normal;
 
   /* background:linear-gradient(var(--primary) 80%, transparent 100%),  rgba(0,0,0,.8) url('/honeycomb.svg') center/2% repeat; */
-  background: var(--primary);
-  
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
+  background: var(--primary-color);
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
   
 }
 
 header {
-  border-bottom: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--secondary-color);
   margin-bottom: 1rem;
 }
 
-footer {
-  border-top: 1px solid var(--secondary);
-  margin-top: 1rem;
-}
-
 a {
-  color: #00e;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /* Directions */
-.direction-options{
+.direction-options {
   list-style: none;
   padding-left: 0.5em;
+}
+
+.direction-options > li { 
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 4px;
 }
 
 .direction-options > li > a
 {
   line-height: 2.5em;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
 }
 
 .what3word{
@@ -63,16 +68,17 @@ a {
   font-weight: 500;
   font-style: normal;
   color:#0A3049;
+
 }
 
-.what3word::before{
-  content: '///';
+.what3word > i {
   font-family: "Source Sans 3", sans-serif;
-  font-weight: 500;
+  font-weight: 900;
   color: #E11F26;
+  margin-right: .5em;
 }
 
-.googlemaps::before
+.googlemaps > i::before
 {
   content:'\e0c8';
   font-family: 'Material Symbols Outlined';
@@ -88,7 +94,9 @@ a {
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
 }
+
 
 /* End Directions */
 
@@ -102,3 +110,35 @@ nav > ul {
 }
 
 /* End Menu */
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  border-top: 1px solid var(--secondary-color);
+  margin-top: 1rem;
+
+  padding-top: 1em;
+  margin-top: auto;
+  
+}
+
+footer .menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+footer .menu .item {
+  flex:1;  
+}
+
+footer .menu .item.links {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+
+
+/* End Footer */

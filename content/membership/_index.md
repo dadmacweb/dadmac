@@ -18,6 +18,3 @@ Fees
 * *Junior member under 16 as of 1st January of current year
 * New member joining fee(for gate key) £2.50 
 
-{{<extLink href="/docs/Dadmac_Club_Privacy_Policy.pdf" title="Dadmac Club Privacy Policy">}}
-{{<extLink href="/docs/DADMAC_Club_Rules_2024.pdf" title="Club Rules" >}}
-
