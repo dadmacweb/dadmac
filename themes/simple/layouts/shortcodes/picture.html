@@ -1,0 +1,27 @@
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" }}
+{{ if $src }}
+    {{ $image := resources.Get $src }}
+    {{ if $image }}
+
+        {{ $fullImage := $image.Resize "1024x webp" }}
+        {{ $halfImage := $image.Resize "512x webp" }}
+        {{ $quarterImage := $image.Resize "256x webp" }}
+        <img 
+            src="{{ $image.RelPermalink }}" 
+            width="1024px"
+            alt="{{ $title }}" 
+            srcset="
+                {{ $quarterImage.RelPermalink}} {{ $quarterImage.Width}}w, 
+                {{ $halfImage.RelPermalink}} {{ $halfImage.Width}}w, 
+                {{ $fullImage.RelPermalink}} 1024w"
+            sizes="
+                (max-width: 256px) {{ $quarterImage.Width}}w,
+                (max-width: 512px) {{ $halfImage.Width}}w, 
+                1024w"
+            style="max-width: 100%; height: auto;"
+
+        />
+        
+    {{ end }}
+{{ end }}
