@@ -8,7 +8,7 @@ draft = true
 
 Welcome to the website of the Dumbarton & District Model Aircraft Club. We launched this site so that we can show you what we're all about and better illustrate what we get up to.
 
-{{<picture src="/image/index.png" title="Field ready for flying">}}
+{{<picture src="/images/index.png" title="Field ready for flying">}}
 
 
 We are based in Dunbartonshire, Scotland. Our flying field is located on the Carman Moor between Cardross and Renton, just opposite the reservoir. To view a map on how to get to the site click here

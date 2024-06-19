@@ -14,15 +14,23 @@ baseURL="https://dadmacweb.org.uk"
     name = 'News'
     pageRef = '/news'
     weight = 20
+
+[[menus.main]]
+    name = 'Gallery'
+    pageRef = '/gallery'
+    weight = 30
+
+
+
 [[menus.main]]
     name = 'Flying Field'
     pageRef = '/field'
-    weight = 30
+    weight = 40
 [[menus.main]]
     name = 'Contact'   
     pageRef = '/contact' 
-    weight = 40
+    weight = 50
 [[menus.main]]
     name = 'Membership'   
     pageRef = '/membership' 
-    weight = 50    
+    weight = 60    
