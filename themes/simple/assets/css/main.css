@@ -150,3 +150,10 @@ footer .menu .item.links {
 }
 
 /*  End Videos*/
+
+
+/* Tables */
+
+table th{
+  text-align: left;
+}
