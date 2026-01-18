@@ -154,6 +154,10 @@ footer .menu .item.links {
 
 /* Tables */
 
-table th{
+table{
+  width: 100%;
+}
+
+table th {
   text-align: left;
 }
