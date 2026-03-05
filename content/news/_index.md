@@ -12,7 +12,7 @@ draft = false
 |New Model Night           |25th February  19:00      |                                                                                                                     |  
 |Bring And Buy Sale        |Friday 13th March 19:00   |{{<extLink href="/docs/B&B Sales Chit.pdf" title="B&B Form" >}}                                                      |
 |                          |                          |Doors Open 17:30                                                                                                     |
-|                          |                          |Auction start 19:00                                                                                                  |
+|                          |                          |Auction start 20:00                                                                                                  |
 
 
 ## Facebook
